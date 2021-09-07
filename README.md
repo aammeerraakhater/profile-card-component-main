@@ -15,7 +15,7 @@ Was to set the background like in the image it now looks good in desktop, but st
 
 ## My project
 
- [GitHub](https://github.com/aammeerraakhater/profile-card-component-main.git). 
- [live view of the project](https://github.com/). 
+ [GitHub]:(https://github.com/aammeerraakhater/profile-card-component-main.git). 
+ [live view of the project]:(https://aammeerraakhater.github.io/profile-card-component-main/). 
 
 **Have fun building!** 🚀
