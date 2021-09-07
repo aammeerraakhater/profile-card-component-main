@@ -1,0 +1,91 @@
+*, ::after, ::before{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --DarkCyan: hsl(185, 75%, 39%);
+    --VeryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+    --DarkGrayishBlue: hsl(227, 10%, 46%);
+    --DarkGray: hsl(0, 0%, 59%);
+
+
+}
+body{
+    background-color:var(--DarkCyan) ;
+    font-size: 18px; 
+    overflow: hidden;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+ .upperpage{
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    size: auto;  
+}
+
+.lowerpage{
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    size: auto;    
+    background: url(../../images/bg-pattern-bottom.svg) no-repeat;
+}
+
+.AllProfileCard{
+    width:450px;
+    border-radius: 18px;
+    overflow: hidden;
+    margin:auto;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+.uppercardback{
+    height:30%;
+}
+.profileCardimg{
+    background: url(../../images/image-victor.jpg);
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    border-radius: 50%;
+    margin :auto;
+    margin-top: -60px;
+    margin-bottom: 20px;
+    border: 5px solid white;
+}
+.name_age_city{
+    text-align: center;
+}
+.name , .numbers{
+    color:var(--VeryDarkDesaturatedBlue) ;
+    font-weight: 700;
+}
+.age, .city{
+    color:var(--DarkGray);
+    font-weight: 400;
+}
+.type{
+    color: var(--DarkGrayishBlue);
+}
+.statistics{
+    display:flex;
+    margin:20px 50px ;
+    justify-content: space-between;
+}
+/* Media query  */
+@media only screen and (max-width:500px){
+    .AllProfileCard{
+        width:95%;
+    }   
+    .statistics{
+        margin:4px 5px ;
+    }
+     
+}
